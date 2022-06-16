@@ -14,11 +14,9 @@ function Home() {
 
 
   return (
-    <div class="container py-5 ">
+    <div class="container py-5 col-6" >
       <div class="row">
         <div class="card">
-          <div class="col-12">
-
 
             <div class="row">
               <div class="col-12">
@@ -43,8 +41,6 @@ function Home() {
               </div>
             </div>
 
-
-          </div>
         </div>
       </div>
     </div>
