@@ -14,29 +14,29 @@ function Home() {
 
 
   return (
-    <div class="container py-5 col-6" >
-      <div class="row">
-        <div class="card">
+    <div className="container py-5 col-6" >
+      <div className="row">
+        <div className="card">
 
-            <div class="row">
-              <div class="col-12">
-                <h1 class="card-title">QuerQuee</h1>
-                <h6 class="card-subtitle mb-2 text-muted">An Experiment in Collective Studying</h6>
+            <div className="row">
+              <div className="col-12">
+                <h1 className="card-title">QuerQuee</h1>
+                <h6 className="card-subtitle mb-2 text-muted">An Experiment in Collective Studying</h6>
               </div>
             </div>
 
-            <div class="row py-3 d-flex justify-content-evenly">
-              <div class="col-11">
+            <div className="row py-3 d-flex justify-content-evenly">
+              <div className="col-11">
                 <About />
               </div>
             </div>
 
-            <div class="row py-3 d-flex justify-content-evenly">
-              <div class="col-4">
+            <div className="row py-3 d-flex justify-content-evenly">
+              <div className="col-4">
                 <CreateRoom />
               </div>
 
-              <div class="col-4">
+              <div className="col-4">
                 <JoinRoom />
               </div>
             </div>

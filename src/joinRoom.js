@@ -11,7 +11,7 @@ function JoinRoom() {
 
 
   return (
-      <button type="button" class="btn btn-primary">Join Group</button>
+      <button type="button" className="btn btn-primary">Join Group</button>
   );
 }
 
